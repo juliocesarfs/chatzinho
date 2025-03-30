@@ -13,16 +13,10 @@ var username = null;
 var usernameColor = null;
 
 var colors = [
-    "#1E90FF",
-    "#319924",
-    "#A155DE",
-    "#99CA34",
-    "#B414DC",
-    "#00FF7F",
-    "#F10808",
-    "#EE68AB",
-    "#BE952E"
+    '#2196F3', '#32c787', '#00BCD4', '#ff5652',
+    '#ffc107', '#ff85af', '#FF9800', '#39bbb0'
 ];
+
 function connect(event) {
     username = document.querySelector('#name').value.trim();
     usernameColor = colors[Math.floor(Math.random() * colors.length)];

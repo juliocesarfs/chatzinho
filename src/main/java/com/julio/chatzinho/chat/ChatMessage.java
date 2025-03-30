@@ -8,6 +8,7 @@ public class ChatMessage {
     private MessageType type;
     private String content;
     private String sender;
+    private String color;
 
     public ChatMessage() {}
 
@@ -15,6 +16,7 @@ public class ChatMessage {
         this.type = type;
         this.content = content;
         this.sender = sender;
+        this.color = color;
     }
 
     public MessageType getType() {
@@ -39,5 +41,13 @@ public class ChatMessage {
 
     public void setSender(String sender) {
         this.sender = sender;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
     }
 }
