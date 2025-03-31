@@ -1,5 +1,5 @@
 # Etapa 1: Build da aplicação
-FROM maven:3.8.6-openjdk-17 AS build
+FROM maven:3.8.6-eclipse-temurin-17 AS build
 LABEL authors="julioczar"
 
 WORKDIR /app
